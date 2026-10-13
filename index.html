@@ -1,0 +1,364 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Mohamed Amine Fekkar, étudiant en développement digital et développeur web junior.">
+    <title>Amine Fekkar | Développeur Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#accueil" class="logo">
+                <span class="logo-icon">A</span>
+                <span>amine<span class="orange">.dev</span></span>
+            </a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                    aria-label="Ouvrir le menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+                <li><a href="#apropos" class="nav-link">À propos</a></li>
+                <li><a href="#competences" class="nav-link">Compétences</a></li>
+                <li><a href="#projets" class="nav-link">Projets</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link contact-link">Contact ↗</a></li>
+            </ul>
+
+            <button class="theme-toggle" id="theme-toggle"
+                    aria-label="Changer le thème" title="Changer le thème">☼</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero section container" id="accueil">
+            <div class="hero-content">
+                <div class="availability">
+                    <span class="status-dot"></span>
+                    Étudiant en Développement Digital
+                </div>
+
+                <p class="eyebrow">BONJOUR, JE SUIS</p>
+                <h1>Mohamed Amine<br><span class="gradient-text">Fekkar.</span></h1>
+
+                <h2 class="hero-subtitle">
+                    Futur développeur <span class="orange">web</span>
+                </h2>
+
+                <p class="hero-description">
+                    Je crée des expériences web modernes, intuitives et adaptées
+                    aux besoins des utilisateurs. J'apprends chaque jour pour
+                    transformer des idées en projets concrets.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projets" class="btn btn-primary">
+                        Voir mes projets <span>↗</span>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        Me contacter
+                    </a>
+                </div>
+
+                <div class="hero-socials">
+                    <a href="https://github.com/aminefekkar"
+                       target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                    <span class="social-divider"></span>
+                    <a href="mailto:fkaramine@gmail.com">Email ↗</a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="visual-glow"></div>
+                <div class="code-window">
+                    <div class="window-bar">
+                        <div class="window-dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <span class="window-title">developer.js</span>
+                    </div>
+
+                    <div class="code-content">
+                        <p><span class="code-purple">const</span> developer = {</p>
+                        <p class="indent">name: <span class="code-green">"Amine"</span>,</p>
+                        <p class="indent">role: <span class="code-green">"Web Developer"</span>,</p>
+                        <p class="indent">skills: [</p>
+                        <p class="indent-2"><span class="code-orange">"HTML"</span>,</p>
+                        <p class="indent-2"><span class="code-orange">"CSS"</span>,</p>
+                        <p class="indent-2"><span class="code-orange">"JavaScript"</span></p>
+                        <p class="indent">],</p>
+                        <p class="indent">learning: <span class="code-green">true</span>,</p>
+                        <p class="indent">dream: <span class="code-green">"Build amazing things"</span></p>
+                        <p>};</p>
+                        <p class="code-comment">// Toujours apprendre, toujours créer.</p>
+                        <p class="terminal-line"><span>➜</span> <span class="terminal-cursor"></span></p>
+                    </div>
+                </div>
+
+                <div class="floating-card card-html">
+                    <span class="tech-icon html-icon">5</span>
+                    <span>HTML5</span>
+                </div>
+                <div class="floating-card card-css">
+                    <span class="tech-icon css-icon">3</span>
+                    <span>CSS3</span>
+                </div>
+                <div class="floating-card card-js">
+                    <span class="tech-icon js-icon">JS</span>
+                    <span>JavaScript</span>
+                </div>
+                <div class="visual-caption">Conçu avec passion <span>♥</span></div>
+            </div>
+
+            <a href="#apropos" class="scroll-indicator">
+                <span class="scroll-line"></span> Défiler pour découvrir
+            </a>
+        </section>
+
+        <section class="section container" id="apropos">
+            <div class="section-heading">
+                <p class="eyebrow">01 — À PROPOS</p>
+                <h2>Qui suis-je <span class="orange">?</span></h2>
+                <p>Un passionné du web en constante évolution.</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-card about-main">
+                    <span class="card-number">01 / PROFIL</span>
+                    <h3>Apprendre aujourd'hui,<br>créer demain.</h3>
+                    <p>
+                        Je suis étudiant en Développement Digital à l'OFPPT,
+                        au Maroc. Je développe mes compétences en création
+                        de sites web grâce à la pratique et à des projets personnels.
+                    </p>
+                    <p>
+                        Mon objectif est de concevoir des interfaces accessibles,
+                        agréables et fonctionnelles, tout en continuant à progresser
+                        dans le développement web.
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <span class="about-icon">⌘</span>
+                    <h3>Créativité</h3>
+                    <p>Imaginer des interfaces originales et soignées.</p>
+                </div>
+
+                <div class="about-card">
+                    <span class="about-icon">↗</span>
+                    <h3>Progression</h3>
+                    <p>Apprendre de nouvelles techniques et améliorer mes projets.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container" id="competences">
+            <div class="section-heading">
+                <p class="eyebrow">02 — COMPÉTENCES</p>
+                <h2>Mes outils <span class="orange">du web.</span></h2>
+                <p>Les technologies que j'utilise pour construire mes projets.</p>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <div class="skill-top">
+                        <span class="skill-logo html-logo">5</span>
+                        <span class="skill-level">01</span>
+                    </div>
+                    <h3>HTML5</h3>
+                    <p>Structure des pages, éléments sémantiques et formulaires.</p>
+                    <div class="skill-tags"><span>Structure</span><span>Accessibilité</span></div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-top">
+                        <span class="skill-logo css-logo">3</span>
+                        <span class="skill-level">02</span>
+                    </div>
+                    <h3>CSS3</h3>
+                    <p>Mise en page, couleurs, animations et design responsive.</p>
+                    <div class="skill-tags"><span>Flexbox</span><span>Grid</span></div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-top">
+                        <span class="skill-logo js-logo">JS</span>
+                        <span class="skill-level">03</span>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>Interactions, événements et comportements dynamiques.</p>
+                    <div class="skill-tags"><span>DOM</span><span>Interactions</span></div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section container" id="projets">
+            <div class="section-heading projects-heading">
+                <div>
+                    <p class="eyebrow">03 — PORTFOLIO</p>
+                    <h2>Mes <span class="orange">projets.</span></h2>
+                    <p>Une sélection de projets personnels et d'exercices pratiques.</p>
+                </div>
+                <span class="project-counter">03 PROJETS</span>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-preview preview-portfolio">
+                        <div class="preview-browser">
+                            <div class="preview-top"><span></span><span></span><span></span></div>
+                            <div class="preview-body">
+                                <div class="preview-label">MON PORTFOLIO</div>
+                                <div class="preview-line"></div>
+                                <div class="preview-line short"></div>
+                                <div class="preview-button"></div>
+                                <div class="preview-circle"></div>
+                            </div>
+                        </div>
+                        <span class="project-index">01</span>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta"><span>HTML</span><span>CSS</span><span>JS</span></div>
+                        <h3>Developer Portfolio</h3>
+                        <p>Un espace personnel pour présenter mes compétences et mes réalisations.</p>
+                        <a href="https://github.com/aminefekkar"
+                           target="_blank" rel="noopener noreferrer" class="project-link">
+                            Voir sur GitHub <span>↗</span>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-preview preview-tasks">
+                        <div class="task-mock">
+                            <span class="mock-label">MY WORKSPACE</span>
+                            <h3>Mes tâches<span class="orange">.</span></h3>
+                            <div class="mock-task"><span class="mock-check">✓</span> Apprendre HTML</div>
+                            <div class="mock-task"><span class="mock-check"></span> Pratiquer CSS</div>
+                            <div class="mock-task"><span class="mock-check"></span> Créer un projet</div>
+                        </div>
+                        <span class="project-index">02</span>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta"><span>HTML</span><span>CSS</span><span>JS</span></div>
+                        <h3>Task Manager</h3>
+                        <p>Une application de gestion de tâches pour organiser son travail quotidien.</p>
+                        <a href="#contact" class="project-link">
+                            Projet à venir <span>↗</span>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-preview preview-restaurant">
+                        <div class="restaurant-mock">
+                            <span class="mock-label">MAISON DU GOÛT</span>
+                            <h3>Le goût<br>de l'exception.</h3>
+                            <span class="restaurant-cta">DÉCOUVRIR</span>
+                        </div>
+                        <span class="project-index">03</span>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta"><span>HTML</span><span>CSS</span><span>Responsive</span></div>
+                        <h3>Restaurant Website</h3>
+                        <p>Une maquette de site vitrine pour un restaurant moderne.</p>
+                        <a href="#contact" class="project-link">
+                            Projet à venir <span>↗</span>
+                        </a>
+                    </div>
+                </article>
+            </div>
+            <p class="projects-note">Les projets 2 et 3 sont des idées de projets à développer.</p>
+        </section>
+
+        <section class="section container" id="services">
+            <div class="section-heading">
+                <p class="eyebrow">04 — SERVICES</p>
+                <h2>Ce que je peux <span class="orange">créer.</span></h2>
+                <p>Des solutions web simples adaptées à vos besoins.</p>
+            </div>
+
+            <div class="services-grid">
+                <article class="service-card">
+                    <span class="service-number">01</span>
+                    <div class="service-icon">▤</div>
+                    <h3>Site vitrine</h3>
+                    <p>Présentez votre activité, vos services et vos coordonnées.</p>
+                    <div class="service-price">Sur devis</div>
+                </article>
+
+                <article class="service-card featured-service">
+                    <span class="service-number">02</span>
+                    <div class="service-icon">✳</div>
+                    <h3>Portfolio personnel</h3>
+                    <p>Un site pour mettre en valeur votre profil et vos réalisations.</p>
+                    <div class="service-price">Sur devis <span>★</span></div>
+                </article>
+
+                <article class="service-card">
+                    <span class="service-number">03</span>
+                    <div class="service-icon">▧</div>
+                    <h3>Page web responsive</h3>
+                    <p>Une page adaptée aux écrans de téléphone, tablette et ordinateur.</p>
+                    <div class="service-price">Sur devis</div>
+                </article>
+            </div>
+
+            <p class="service-disclaimer">
+                Les services proposés dépendent de mes compétences actuelles et
+                de la complexité du projet. Chaque demande est étudiée avant acceptation.
+            </p>
+        </section>
+
+        <section class="contact-section section" id="contact">
+            <div class="container">
+                <div class="contact-box">
+                    <div class="contact-content">
+                        <p class="eyebrow">05 — CONTACT</p>
+                        <h2>Un projet en tête ?<br><span class="gradient-text">Parlons-en.</span></h2>
+                        <p>
+                            Vous avez une idée de site web ? Envoyez-moi un message
+                            pour discuter de votre projet.
+                        </p>
+                        <a href="mailto:fkaramine@gmail.com?subject=Projet%20web"
+                           class="btn btn-primary">Envoyer un email ↗</a>
+                    </div>
+
+                    <div class="contact-details">
+                        <a href="mailto:fkaramine@gmail.com" class="contact-item">
+                            <span class="contact-icon">@</span>
+                            <span><small>EMAIL</small><strong>fkaramine@gmail.com</strong></span>
+                            <span class="contact-arrow">↗</span>
+                        </a>
+                        <a href="https://github.com/aminefekkar"
+                           target="_blank" rel="noopener noreferrer" class="contact-item">
+                            <span class="contact-icon">⌘</span>
+                            <span><small>GITHUB</small><strong>aminefekkar</strong></span>
+                            <span class="contact-arrow">↗</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <a href="#accueil" class="logo">
+                <span class="logo-icon">A</span>
+                <span>amine<span class="orange">.dev</span></span>
+            </a>
+            <p>© <span id="year"></span> Mohamed Amine Fekkar. Tous droits réservés.</p>
+            <a href="#accueil" class="back-top">Retour en haut ↑</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
